@@ -168,7 +168,7 @@ img{
     padding-left: 7%;
 }
 .container .banner{
-    padding-left: 74%;
+    padding-left: 0;
     width: 100%;
     background: url(banner2.jpg) no-repeat center;
     background-size: cover;
@@ -185,7 +185,7 @@ img{
    text-align: center;
 }
 .banner .choose-vid button{
-    margin-left: 170px;
+    margin-left: 45%;
     padding: 6px;
     color: #5a5a5a;
 }
@@ -410,7 +410,12 @@ img{
 
 
 
-
+@media (max-width:1250px){
+    
+    .container .banner .choose-vid button{
+        margin-left:40%;
+    }
+}
 
 
 @media (max-width:900px) {
@@ -440,6 +445,12 @@ img{
     .navbar .nav-right .user-icon{
         display: block;
         width: 30px;
+    }
+    .banner .choose-vid p{
+        font-size: 20px;
+    }
+    .banner .choose-vid button{
+        font-size: 13px;
     }
     .container .banner img{
         height: 200px;
@@ -472,4 +483,10 @@ img{
     .navbar .nav-right .user-icon{
         width: 25px;
     }   
+    .banner .choose-vid p{
+        font-size: 18px;
+    }
+    .banner .choose-vid button{
+        font-size: 10px;
+    }
 }
